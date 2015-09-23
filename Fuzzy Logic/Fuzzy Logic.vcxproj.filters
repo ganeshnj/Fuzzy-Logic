@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{cf690521-b34a-4b9a-a31b-842e1ab52dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy">
+      <UniqueIdentifier>{3d8bac5f-bcec-4af7-acf1-fd010a9c1212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Binary">
+      <UniqueIdentifier>{461d7039-e3b2-49e9-aa3f-c7ceb968b203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Expression">
+      <UniqueIdentifier>{684861c8-6b6c-4547-929f-4c3319e09b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Unary">
+      <UniqueIdentifier>{d3912b27-bbab-4fbe-a4ac-b45d4540262a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Nary">
+      <UniqueIdentifier>{7916c5e7-3564-4260-98dd-13df7097f8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy\And">
+      <UniqueIdentifier>{28fbab09-efd0-48df-98dc-6d7cc100c57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy\Not">
+      <UniqueIdentifier>{bd255951-f28c-4dd0-b8ce-e99ac0b0620d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy\Defuzz">
+      <UniqueIdentifier>{912ac215-2735-4397-ae7b-d96ab37c5f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy\Then">
+      <UniqueIdentifier>{40755a6b-4948-44ed-b806-66c2bcde7a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy\Or">
+      <UniqueIdentifier>{2054363d-f230-483a-a33f-b299ca04bdd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy\Agg">
+      <UniqueIdentifier>{b6e383c9-73d5-45b0-bb2c-d79b099d749c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fuzzy\Is">
+      <UniqueIdentifier>{63de18be-fb48-427d-a1e9-19902335221e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryExpressionModel.h">
+      <Filter>Header Files\Core\Binary</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryExpressionModel.h">
+      <Filter>Header Files\Core\Unary</Filter>
+    </ClInclude>
+    <ClInclude Include="And.h">
+      <Filter>Header Files\Fuzzy\And</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueModel.h">
+      <Filter>Header Files\Core\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="AndMin.h">
+      <Filter>Header Files\Fuzzy\And</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionFactory.h">
+      <Filter>Header Files\Core\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="FuzzyFactory.h">
+      <Filter>Header Files\Fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="AndMult.h">
+      <Filter>Header Files\Fuzzy\And</Filter>
+    </ClInclude>
+    <ClInclude Include="Not.h">
+      <Filter>Header Files\Fuzzy\Not</Filter>
+    </ClInclude>
+    <ClInclude Include="NotMinus.h">
+      <Filter>Header Files\Fuzzy\Not</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.h">
+      <Filter>Header Files\Fuzzy\Defuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryShadowExpression.h">
+      <Filter>Header Files\Core\Unary</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryShadowExpression.h">
+      <Filter>Header Files\Core\Binary</Filter>
+    </ClInclude>
+    <ClInclude Include="MamdaniDefuzz.h">
+      <Filter>Header Files\Fuzzy\Defuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="CogDefuzz.h">
+      <Filter>Header Files\Fuzzy\Defuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="Then.h">
+      <Filter>Header Files\Fuzzy\Then</Filter>
+    </ClInclude>
+    <ClInclude Include="ThenMin.h">
+      <Filter>Header Files\Fuzzy\Then</Filter>
+    </ClInclude>
+    <ClInclude Include="ThenMult.h">
+      <Filter>Header Files\Fuzzy\Then</Filter>
+    </ClInclude>
+    <ClInclude Include="Or.h">
+      <Filter>Header Files\Fuzzy\Or</Filter>
+    </ClInclude>
+    <ClInclude Include="OrMax.h">
+      <Filter>Header Files\Fuzzy\Or</Filter>
+    </ClInclude>
+    <ClInclude Include="Agg.h">
+      <Filter>Header Files\Fuzzy\Agg</Filter>
+    </ClInclude>
+    <ClInclude Include="AggMax.h">
+      <Filter>Header Files\Fuzzy\Agg</Filter>
+    </ClInclude>
+    <ClInclude Include="Is.h">
+      <Filter>Header Files\Fuzzy\Is</Filter>
+    </ClInclude>
+    <ClInclude Include="IsTriangle.h">
+      <Filter>Header Files\Fuzzy\Is</Filter>
+    </ClInclude>
+    <ClInclude Include="SugenoThen.h">
+      <Filter>Header Files\Fuzzy\Defuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="NaryExpressionModel.h">
+      <Filter>Header Files\Core\Nary</Filter>
+    </ClInclude>
+    <ClInclude Include="AggPlus.h">
+      <Filter>Header Files\Fuzzy\Agg</Filter>
+    </ClInclude>
+    <ClInclude Include="SugenoConclusion.h">
+      <Filter>Header Files\Fuzzy\Defuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="NaryShadowExpression.h">
+      <Filter>Header Files\Core\Nary</Filter>
+    </ClInclude>
+    <ClInclude Include="OrPlus.h">
+      <Filter>Header Files\Fuzzy\Or</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryExpression.h">
+      <Filter>Header Files\Core\Binary</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Header Files\Core\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="NaryExpression.h">
+      <Filter>Header Files\Core\Nary</Filter>
+    </ClInclude>
+    <ClInclude Include="SugenoDefuzz.h">
+      <Filter>Header Files\Fuzzy\Defuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryExpression.h">
+      <Filter>Header Files\Core\Unary</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
